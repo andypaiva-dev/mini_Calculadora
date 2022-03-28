@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #ecf0f3;
+    outline: none;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 80px;
+}
+
+.mini{
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.container{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mini-calc {
+    background-color: #ecf0f3;
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow: inset 5px 5px 12px #ffffff,
+                    5px 5px 12px rgba(0, 0, 0,.16);
+}
+
+.my{
+    display: grid;
+    grid-template-columns: repeat(4,68px);
+}
+
+input{
+    grid-column: span 4;
+    height: 70px;
+    width: 268px;
+    font-size: 50px;
+    text-align: end;
+    border: none;
+    border-radius: 30px;
+    box-shadow: inset -5px -5px 12px #ffffff,
+            inset 5px 5px 12px rgba(0, 0, 0,.26);
+    margin: auto;                
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+button{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    background-color: #ecf0f3;
+    border: none;
+    border-radius: 50%;
+    margin: 10px;
+    box-shadow: inset 5px 5px 12px #ffffff, 5px 5px 12px rgba(0, 0, 0,.16);
+}
+
+.equal{
+    width: 113px;
+    border-radius: 30px;
+}
